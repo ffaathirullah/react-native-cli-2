@@ -1,8 +1,8 @@
 import React from 'react';
 import {Text, View, Image, StyleSheet} from 'react-native';
-import gambar from './gambar.png';
+import gambar from '../../assets/images/gambar.png';
 
-const StylingReactComponent = () => (
+const StylingComponent = () => (
   <View>
     <Text style={styles.text}>Styling Component</Text>
     <View
@@ -81,4 +81,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default StylingReactComponent;
+export default StylingComponent;
