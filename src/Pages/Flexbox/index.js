@@ -35,7 +35,7 @@ class Flexbox extends Component {
             style={{width: 70, height: 70, borderRadius: 50}}
           />
           <View>
-            <Text> Facheul Faathirullah </Text>
+            <Text> Fachrul Faathirullah </Text>
             <Text> Coba React Native</Text>
           </View>
         </View>
