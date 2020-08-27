@@ -3,12 +3,14 @@ import {View, ScrollView} from 'react-native';
 import SampleComponent from './Pages/SampleComponent';
 import StylingComponent from './Pages/StylingComponent';
 import Flexbox from './Pages/Flexbox';
+import Position from './Pages/Position';
 const App = () => (
   <View>
     <ScrollView>
-      <SampleComponent />
+      {/*<SampleComponent />
       <StylingComponent />
-      <Flexbox />
+      <Flexbox />*/}
+      <Position />
     </ScrollView>
   </View>
 );
