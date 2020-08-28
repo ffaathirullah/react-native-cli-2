@@ -6,7 +6,8 @@ import { View, ScrollView } from 'react-native';
 // import Position from './Pages/Position';
 // import StateDinamis from './Pages/StateDinamis';
 // import PropsDinamis from './Pages/PropsDinamis';
-import Comunication from './Pages/Comunication';
+// import Comunication from './Pages/Comunication';
+import ReactNativeSVG from './Pages/ReactNativeSVG';
 
 const App = () => (
   <View>
@@ -17,7 +18,8 @@ const App = () => (
       {/* <Position /> */}
       {/* <StateDinamis /> */}
       {/* <PropsDinamis /> */}
-      <Comunication />
+      {/* <Comunication /> */}
+      <ReactNativeSVG />
     </ScrollView>
   </View>
 );

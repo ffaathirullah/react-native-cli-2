@@ -27,5 +27,6 @@ module.exports = {
     'max-classes-per-file': ['error', 10],
     'react/state-in-constructor': 'off',
     'react/prefer-stateless-function': 'off',
+    'import/no-extraneous-dependencies': 'off',
   },
 };
