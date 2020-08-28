@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Text, View, Image} from 'react-native';
+import React, { Component } from 'react';
+import { Text, View, Image } from 'react-native';
 
 class Flexbox extends Component {
   render() {
@@ -12,11 +12,12 @@ class Flexbox extends Component {
             backgroundColor: 'grey',
             alignItems: 'center',
             justifyContent: 'space-between',
-          }}>
-          <View style={{backgroundColor: 'blue', width: 50, height: 50}} />
-          <View style={{backgroundColor: 'yellow', width: 50, height: 60}} />
-          <View style={{backgroundColor: 'orange', width: 50, height: 70}} />
-          <View style={{backgroundColor: 'red', width: 50, height: 80}} />
+          }}
+        >
+          <View style={{ backgroundColor: 'blue', width: 50, height: 50 }} />
+          <View style={{ backgroundColor: 'yellow', width: 50, height: 60 }} />
+          <View style={{ backgroundColor: 'orange', width: 50, height: 70 }} />
+          <View style={{ backgroundColor: 'red', width: 50, height: 80 }} />
         </View>
 
         <View
@@ -24,15 +25,16 @@ class Flexbox extends Component {
             flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'space-around',
-          }}>
+          }}
+        >
           <Text>Home</Text>
           <Text>Body</Text>
           <Text>Center</Text>
         </View>
-        <View style={{flexDirection: 'row', margin: 40}}>
+        <View style={{ flexDirection: 'row', margin: 40 }}>
           <Image
-            source={{uri: 'http://placeimg.com/100/100/animals'}}
-            style={{width: 70, height: 70, borderRadius: 50}}
+            source={{ uri: 'http://placeimg.com/100/100/animals' }}
+            style={{ width: 70, height: 70, borderRadius: 50 }}
           />
           <View>
             <Text> Fachrul Faathirullah </Text>

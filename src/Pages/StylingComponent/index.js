@@ -1,5 +1,7 @@
 import React from 'react';
-import {Text, View, Image, StyleSheet} from 'react-native';
+import {
+  Text, View, Image, StyleSheet,
+} from 'react-native';
 import gambar from '../../assets/images/gambar.png';
 
 const StylingComponent = () => (
@@ -21,14 +23,16 @@ const StylingComponent = () => (
         padding: 12,
         backgroundColor: '#f2f2',
         width: 212,
-      }}>
+      }}
+    >
       <Image
         source={gambar}
-        style={{width: 188, height: 107, borderRadius: 8}}
+        style={{ width: 188, height: 107, borderRadius: 8 }}
       />
-      <Text style={{fontSize: 14, fontWeight: 'bold', marginTop: 12}}>
+      <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 12 }}>
         {' '}
-        Kelebihan Jest{' '}
+        Kelebihan Jest
+        {' '}
       </Text>
       <Text
         style={{
@@ -36,7 +40,8 @@ const StylingComponent = () => (
           fontWeight: 'bold',
           color: '#f2994a',
           marginTop: 12,
-        }}>
+        }}
+      >
         {' '}
         Price : 200000
       </Text>
@@ -46,7 +51,8 @@ const StylingComponent = () => (
           fontWeight: '300',
           color: 'black',
           marginTop: 6,
-        }}>
+        }}
+      >
         {' '}
         Bandung Barat
       </Text>
@@ -56,14 +62,16 @@ const StylingComponent = () => (
           borderRadius: 25,
           paddingVertical: 6,
           marginTop: 12,
-        }}>
+        }}
+      >
         <Text
           style={{
             fontSize: 14,
             fontWeight: '200',
             color: 'white',
             textAlign: 'center',
-          }}>
+          }}
+        >
           {' '}
           BELI
         </Text>

@@ -1,5 +1,7 @@
-import React, {useState, Component} from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native';
+import React, { useState, Component } from 'react';
+import {
+  View, Text, StyleSheet, Button,
+} from 'react-native';
 
 const Counter = () => {
   const [number, setNumber] = useState(0);
@@ -12,23 +14,24 @@ const Counter = () => {
 };
 
 class CounterClass extends Component {
-  state = {
-    number: 0,
-  };
-  render() {
-    return (
-      <View>
-        <Text>{this.state.number}</Text>
-        <Button
-          title="tambah"
-          onPress={() => this.setState({number: this.state.number + 1})}
-        />
-      </View>
-    );
-  }
+state = {
+  number: 0,
+};
+
+render() {
+  return (
+    <View>
+      <Text>{this.state.number}</Text>
+      <Button
+        title="tambah"
+        onPress={() => this.setState((prevState) => ({ number: prevState.number + 1 }))}
+      />
+    </View>
+  );
+}
 }
 
-const StateDinamis = ({}) => (
+const StateDinamis = () => (
   <View style={styles.container}>
     <Text>Materi State Dinamis</Text>
     <Text>Functional Component (HOOKS)</Text>
