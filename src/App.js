@@ -1,21 +1,23 @@
 import React from 'react';
 import { View, ScrollView } from 'react-native';
-import SampleComponent from './Pages/SampleComponent';
-import StylingComponent from './Pages/StylingComponent';
-import Flexbox from './Pages/Flexbox';
-import Position from './Pages/Position';
-import StateDinamis from './Pages/StateDinamis';
-import PropsDinamis from './Pages/PropsDinamis';
+// import SampleComponent from './Pages/SampleComponent';
+// import StylingComponent from './Pages/StylingComponent';
+// import Flexbox from './Pages/Flexbox';
+// import Position from './Pages/Position';
+// import StateDinamis from './Pages/StateDinamis';
+// import PropsDinamis from './Pages/PropsDinamis';
+import Comunication from './Pages/Comunication';
 
 const App = () => (
   <View>
     <ScrollView>
-      {/* <SampleComponent />
-      <StylingComponent />
-      <Flexbox /> */}
+      {/* <SampleComponent /> */}
+      {/* <StylingComponent /> */}
+      {/* <Flexbox /> */}
       {/* <Position /> */}
       {/* <StateDinamis /> */}
-      <PropsDinamis />
+      {/* <PropsDinamis /> */}
+      <Comunication />
     </ScrollView>
   </View>
 );
