@@ -1,4 +1,6 @@
 module.exports = {
+  parser: 'babel-eslint',
+  root: true,
   env: {
     browser: true,
     es2020: true,
@@ -17,7 +19,6 @@ module.exports = {
   plugins: [
     'react',
   ],
-  parser: 'babel-eslint',
   rules: {
     'react/prop-types': 'off',
     'react/destructuring-assignment': 'off',
@@ -28,5 +29,10 @@ module.exports = {
     'react/state-in-constructor': 'off',
     'react/prefer-stateless-function': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'import/extensions': 'off',
+    'no-undef': 'off',
+    'no-lone-blocks': 'off',
+    'react/jsx-no-undef': 'off',
+
   },
 };
